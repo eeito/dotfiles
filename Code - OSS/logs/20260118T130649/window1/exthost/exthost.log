@@ -1,0 +1,25 @@
+2026-01-18 13:06:50.829 [info] Extension host with pid 38673 started
+2026-01-18 13:06:50.932 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-18 13:06:50.957 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-18 13:06:50.994 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-18 13:06:51.000 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-18 13:06:51.044 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-18 13:06:51.129 [info] Eager extensions activated
+2026-01-18 13:06:51.130 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:06:51.132 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:06:51.148 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:06:55.064 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-18 13:06:55.069 [info] Extension host with pid 38673 exiting with code 0
+2026-01-18 13:06:55.980 [info] Extension host with pid 38763 started
+2026-01-18 13:06:55.980 [info] Skipping acquiring lock for /home/eito/.config/Code - OSS/User/workspaceStorage/11bbe625ec0d7694f66896c3d0f1cb79.
+2026-01-18 13:06:55.992 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-18 13:06:56.018 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-18 13:06:56.065 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-18 13:06:56.070 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-18 13:06:56.114 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-18 13:06:56.201 [info] Eager extensions activated
+2026-01-18 13:06:56.202 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:06:56.204 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:06:56.221 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:07:21.228 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-18 13:07:21.255 [info] Extension host with pid 38763 exiting with code 0

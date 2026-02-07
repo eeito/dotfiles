@@ -1,0 +1,34 @@
+2026-01-18 13:25:36.384 [info] [main] Log level: Info
+2026-01-18 13:25:36.384 [info] [main] Validating found git in: "git"
+2026-01-18 13:25:36.384 [info] [main] Using git "2.52.0" from "git"
+2026-01-18 13:25:36.384 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-18 13:25:36.384 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-18 13:25:44.726 [info] [main] Log level: Info
+2026-01-18 13:25:44.726 [info] [main] Validating found git in: "git"
+2026-01-18 13:25:44.726 [info] [main] Using git "2.52.0" from "git"
+2026-01-18 13:25:44.726 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-18 13:25:44.726 [info] > git rev-parse --show-toplevel [9ms]
+2026-01-18 13:25:44.729 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [1ms]
+2026-01-18 13:25:44.739 [info] [Model][openRepository] Opened repository (path): /home/eito/projs/dotfiles
+2026-01-18 13:25:44.739 [info] [Model][openRepository] Opened repository (real path): /home/eito/projs/dotfiles
+2026-01-18 13:25:44.739 [info] [Model][openRepository] Opened repository (kind): repository
+2026-01-18 13:25:44.748 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 13:25:44.749 [info] > git config --get commit.template [5ms]
+2026-01-18 13:25:44.809 [info] > git rev-parse --show-toplevel [20ms]
+2026-01-18 13:25:44.839 [info] > git rev-parse --show-toplevel [27ms]
+2026-01-18 13:25:44.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2026-01-18 13:25:44.850 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-18 13:25:44.858 [info] > git status -z -uall [3ms]
+2026-01-18 13:25:44.858 [info] > git rev-parse --show-toplevel [6ms]
+2026-01-18 13:25:44.859 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-18 13:25:44.859 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-18 13:25:44.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-01-18 13:25:44.882 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2026-01-18 13:25:44.884 [info] > git config --get commit.template [6ms]
+2026-01-18 13:25:44.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2026-01-18 13:25:44.890 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2026-01-18 13:25:44.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-01-18 13:25:44.896 [info] > git status -z -uall [2ms]
+2026-01-18 13:25:44.897 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% fbafa8eb9390e343064c3c06905ddd359f4d0fc8...refs/remotes/origin/main -- [5ms]
+2026-01-18 13:25:44.897 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-01-18 13:25:45.266 [info] > git check-ignore -v -z --stdin [4ms]

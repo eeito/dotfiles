@@ -1,0 +1,889 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "cursorBottom",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "cursorTop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 6
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 6
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 6,
+            "select": true
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 6,
+            "select": true,
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+m",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!terminalEditorFocus"
+    },
+    {
+        "key": "shift+d",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "editor.action.openLink",
+                "editor.action.openDeclarationToTheSide"
+            ]
+        }
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.revealDeclaration",
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "workbench.action.increaseViewWidth",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "workbench.action.decreaseViewWidth",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "workbench.action.focusRightGroup",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+q",
+        "command": "editor.emmet.action.wrapWithAbbreviation",
+        "when": "editorTextFocus && (editorLangId == 'tsx' || editorLangId == 'jsx' || editorLangId == 'html')"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "$(${0})"
+        },
+        "when": "editorTextFocus && (editorLangId == 'makefile' || editorLangId == 'javascript' || editorLangId == 'typescript')"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "#include <${0}>",
+        },
+        "when": "editorTextFocus && (editorLangId == 'cpp' || editorLangId == 'c')"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "editor.action.fontZoomIn",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "editor.action.fontZoomOut",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+=",
+        "command": "workbench.action.terminal.fontZoomIn",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.terminal.fontZoomOut",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+j",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+o",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+b",
+        "command": "noop",
+    },
+    {
+        "key": "up",
+        "command": "list.focusAnyLast",
+        "when": "sideBarFocus && sideBarVisible && !listHasSelectionOrFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.view.explorer",
+                "list.collapseAll",
+            ]
+        },
+        "when": "!sideBarFocus && !sideBarVisible"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.view.explorer",
+        "when": "!sideBarFocus && sideBarVisible"
+    },
+    {
+        "key": "shift+down",
+        "command": "list.expandSelectionDown",
+        "when": "sideBarFocus && listMultiSelection"
+    },
+    {
+        "key": "shift+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.focusUp",
+                "list.expandSelectionDown",
+                "list.expandSelectionDown"
+            ]
+        },
+        "when": "sideBarFocus && !listMultiSelection"
+    },
+    {
+        "key": "shift+up",
+        "command": "list.expandSelectionUp",
+        "when": "sideBarFocus && listMultiSelection"
+    },
+    {
+        "key": "shift+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.focusDown",
+                "list.expandSelectionUp",
+                "list.expandSelectionUp"
+            ]
+        },
+        "when": "sideBarFocus && !listMultiSelection"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.collapseAll",
+                "list.collapseAll",
+                "list.collapseAll",
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        "when": "sideBarFocus && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.files.action.focusFilesExplorer",
+        "when": "sideBarFocus && !filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor",
+        "when": "!panelFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor",
+		"when": "!panelFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "panelVisible && panelFocus"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "panelVisible && panelFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.files.action.createFileFromExplorer",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.files.action.createFolderFromExplorer",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "workbench.action.increaseViewSize",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "workbench.action.decreaseViewSize",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "!sideBarFocus && !terminalFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "list.find",
+        "when": "sideBarFocus && !terminalFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.focusDown",
+                "list.focusDown",
+                "list.focusDown",
+                "list.focusDown",
+            ]
+        },
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.focusUp",
+                "list.focusUp",
+                "list.focusUp",
+                "list.focusUp",
+            ]
+        },
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.focusDown",
+                "list.expandSelectionUp",
+                "list.expandSelectionUp",
+                "list.expandSelectionUp",
+                "list.expandSelectionUp",
+                "list.expandSelectionUp",
+            ]
+        },
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.focusUp",
+                "list.expandSelectionDown",
+                "list.expandSelectionDown",
+                "list.expandSelectionDown",
+                "list.expandSelectionDown",
+                "list.expandSelectionDown",
+            ]
+        },
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "list.focusLast",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "alt+up",
+        "command": "list.focusFirst",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "enter",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.collapseAll",
+                "list.collapseAll",
+                "list.collapseAll",
+                "list.collapseAll",
+                "list.closeFind",
+                "list.select",
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        "when": "filesExplorerFocus && resourceSet && !explorerResourceIsFolder"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "workbench.action.editorLayoutSingle",
+        "when": "editorTextFocus && multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "workbench.action.toggleCenteredLayout",
+        "when": "editorTextFocus && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+,",
+        "command": "noop"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleMaximizedPanel",
+                "workbench.action.terminal.scrollUp",
+                "workbench.action.terminal.scrollUp",
+                "workbench.action.terminal.scrollUp",
+                "workbench.action.terminal.scrollUp",
+                "workbench.action.terminal.scrollUp",
+            ]
+        },
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "filesExplorer.copy",
+                "filesExplorer.paste",
+                "renameFile"
+            ]
+        },
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.splitEditorRight",
+                "workbench.action.focusFirstEditorGroup",
+                "workbench.action.closeActiveEditor",
+                "workbench.action.focusLastEditorGroup",
+                "workbench.action.focusLastEditorGroup",
+                "workbench.action.focusLastEditorGroup",
+            ]
+        },
+        "when": "editorTextFocus && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.splitEditorLeft",
+                "workbench.action.focusLastEditorGroup",
+                "workbench.action.closeActiveEditor",
+                "workbench.action.focusFirstEditorGroup",
+                "workbench.action.focusFirstEditorGroup",
+                "workbench.action.focusFirstEditorGroup",
+            ]
+        },
+        "when": "editorTextFocus && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "workbench.action.moveEditorToNextGroup",
+        "when": "editorTextFocus && multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+shift+alt+left",
+        "command": "workbench.action.moveEditorToPreviousGroup",
+        "when": "editorTextFocus && multipleEditorGroups"
+    },
+    {
+        "key": "alt+up",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "terminalFocusInAny && !panelMaximized"
+    },
+    {
+        "key": "alt+down",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "terminalFocusInAny && panelMaximized"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleMaximizedPanel",
+                "workbench.action.terminal.scrollUp",
+            ]
+        },
+        "when": "terminalFocusInAny"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleMaximizedPanel",
+                "workbench.action.terminal.scrollDown"
+            ]
+        },
+        "when": "terminalFocusInAny && !panelMaximized"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "workbench.action.terminal.scrollUp",
+        "when": "terminalFocusInAny && panelMaximized"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.terminal.scrollDown",
+        "when": "terminalFocusInAny && panelMaximized"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "workbench.action.terminal.scrollUpPage",
+        "when": "terminalFocusInAny && panelMaximized"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "workbench.action.terminal.scrollDownPage",
+        "when": "terminalFocusInAny && panelMaximized"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleMaximizedPanel",
+                "workbench.action.terminal.scrollDownPage",
+            ]
+        },
+        "when": "terminalFocusInAny && !panelMaximized"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleMaximizedPanel",
+                "workbench.action.terminal.scrollUpPage",
+            ]
+        },
+        "when": "terminalFocusInAny && !panelMaximized"
+    },
+    {
+        "key": "ctrl+shift+alt+right",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocusInAny"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.actions.view.problems",
+        "when": "!problemFocus"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.terminal.toggleTerminal",
+                "workbench.action.terminal.toggleTerminal",
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        },
+        "when": "problemFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.closeActiveEditor",
+                "workbench.action.focusFirstEditorGroup"
+            ]
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+enter",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocusInAny"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocusInAny"
+    },
+    {
+        "key": "alt+right",
+        "command": "noop",
+        "when": "terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "alt+left",
+        "command": "noop",
+        "when": "terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "alt+shift+right",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+shift+left",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "shift+enter",
+        "command": "noop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "noop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "escape",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.closeFind",
+                "list.clear",
+                "list.clear",
+                "list.clear",
+            ]
+        },
+        "when": "listFocus"
+    },
+    {
+        "key": "shift+r",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.focusAnyLast",
+                "list.focusAnyUp",
+                "list.focusAnyUp",
+                "list.focusAnyUp",
+            ]
+        },
+        "when": "sideBarFocus && sideBarVisible && !listHasSelectionOrFocus"
+    },
+    { "key": "ctrl+k o", "command": "noop", },
+    {
+        "key": "ctrl+k d",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "manpages.openFromCursor",
+            ]
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "renameFile",
+        "when": "sideBarVisible && explorerViewletFocus"
+    },
+    // {
+    //     "key": "f5",
+    //     "command": "makefile.buildTarget",
+    //     "when": "editorTextFocus"
+    // },
+    {
+        "key": "f1",
+        "command": "workbench.action.showAboutDialog",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.files.action.collapseExplorerFolders",
+                "workbench.action.focusSideBar",
+                "list.collapseAll",
+                "explorer.newFolder"
+            ]
+        },
+        "when": "!sideBarFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.files.action.collapseExplorerFolders",
+                "workbench.action.focusSideBar",
+                "list.collapseAll",
+                "explorer.newFile"
+            ]
+        },
+        "when": "!sideBarFocus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "workbench.view.scm",
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "removeRootFolder",
+        "when": "sideBarFocus && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "addRootFolder",
+        "when": "sideBarFocus && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "workbench.action.terminal.focusAccessibleBuffer",
+        "when": "terminalFocusInAny && panelMaximized"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleMaximizedPanel",
+                {"command": "workbench.action.terminal.sendSequence", "args": { "text": "\u000D" }},
+                "workbench.action.terminal.focusAccessibleBuffer"
+            ]
+        },
+        "when": "terminalFocusInAny && !panelMaximized"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleMaximizedPanel",
+                {"command": "workbench.action.terminal.sendSequence", "args": { "text": "\u000D" }},
+                "workbench.action.terminal.focusAccessibleBuffer"
+            ]
+        },
+        "when": "terminalFocusInAny && (!panelMaximized)"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "list.clear",
+                "list.selectAll",
+                "list.selectAll"
+            ]
+        },
+        "when": "sideBarFocus && explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "workbench.action.increaseViewSize",
+        "when": "terminalFocus || panelFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "workbench.action.decreaseViewSize",
+        "when": "terminalFocus || panelFocus"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "workbench.action.gotoLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+up",
+        "command": "editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "editor.action.insertCursorBelow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "editor.action.formatSelection",
+                "editor.action.reindentselectedlines"
+            ]
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "deleteInsideWord",
+                "editor.action.reindentselectedlines"
+            ]
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "noop",
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "noop",
+    },
+    // {
+    //     "key": "ctrl+l",
+    //     "command": "workbench.action.terminal.sendSequence",
+    //     "args": { "text": "clear\u000D" },
+    //     "when": "terminalFocusInAny"
+    // },
+    {
+        "key": "ctrl+shift+c",
+        "command": "noop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "search.action.openEditor",
+        "when": "sideBarFocus && filesExplorerFocus"
+    },
+    {
+        "key": "enter",
+        "command": "search.action.focusNextSearchResult",
+        "when": "searchInputBoxFocus"
+    },
+    {
+        "key": "ctrl+shift+[IntlBackslash]",
+        "command": "noop",
+    },
+    {
+        "key": "shift+tab",
+        "command": "noop",
+    }
+]

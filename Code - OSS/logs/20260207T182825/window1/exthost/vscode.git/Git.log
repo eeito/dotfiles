@@ -1,0 +1,57 @@
+2026-02-07 18:28:27.575 [info] [main] Log level: Info
+2026-02-07 18:28:27.575 [info] [main] Validating found git in: "git"
+2026-02-07 18:28:27.575 [info] [main] Using git "2.53.0" from "git"
+2026-02-07 18:28:27.575 [info] [Model][doInitialScan] Initial repository scan started
+2026-02-07 18:28:27.575 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-02-07 18:28:32.795 [info] [main] Log level: Info
+2026-02-07 18:28:32.795 [info] [main] Validating found git in: "git"
+2026-02-07 18:28:32.795 [info] [main] Using git "2.53.0" from "git"
+2026-02-07 18:28:32.795 [info] [Model][doInitialScan] Initial repository scan started
+2026-02-07 18:28:32.795 [info] > git rev-parse --show-toplevel [14ms]
+2026-02-07 18:28:32.795 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-07 18:28:32.796 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-07 18:28:32.796 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-07 18:28:32.796 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-02-07 18:28:34.600 [info] > git rev-parse --show-toplevel [2ms]
+2026-02-07 18:28:34.600 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-07 18:28:34.843 [info] > git rev-parse --show-toplevel [2ms]
+2026-02-07 18:28:34.843 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-07 18:28:34.982 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-07 18:28:34.982 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-07 18:28:35.466 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-07 18:28:35.466 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-02-07 18:29:59.355 [info] > git rev-parse --show-toplevel [1ms]
+2026-02-07 18:29:59.359 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [1ms]
+2026-02-07 18:29:59.368 [info] [Model][openRepository] Opened repository (path): /home/eito/Projs/dotfiles
+2026-02-07 18:29:59.368 [info] [Model][openRepository] Opened repository (real path): /home/eito/Projs/dotfiles
+2026-02-07 18:29:59.368 [info] [Model][openRepository] Opened repository (kind): repository
+2026-02-07 18:29:59.376 [info] > git config --get commit.template [2ms]
+2026-02-07 18:29:59.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2026-02-07 18:29:59.416 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eito/Projs/dotfiles/.git/refs/remotes/origin/main'
+2026-02-07 18:29:59.421 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2026-02-07 18:29:59.427 [info] > git status -z -uall [4ms]
+2026-02-07 18:29:59.428 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-02-07 18:29:59.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-02-07 18:29:59.456 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2026-02-07 18:29:59.456 [warning] [Git][config] git config failed: Failed to execute git
+2026-02-07 18:29:59.459 [info] > git config --get commit.template [8ms]
+2026-02-07 18:29:59.462 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2026-02-07 18:29:59.487 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [23ms]
+2026-02-07 18:29:59.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2026-02-07 18:29:59.495 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eito/Projs/dotfiles/.git/refs/remotes/origin/main'
+2026-02-07 18:29:59.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2026-02-07 18:29:59.500 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2026-02-07 18:29:59.508 [info] > git status -z -uall [4ms]
+2026-02-07 18:29:59.509 [info] > git config --add --local branch.main.vscode-merge-base origin/main [9ms]
+2026-02-07 18:29:59.510 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms] (cancelled)
+2026-02-07 18:29:59.520 [info] > git config --get commit.template [2ms]
+2026-02-07 18:29:59.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-02-07 18:29:59.528 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/eito/Projs/dotfiles/.git/refs/remotes/origin/main'
+2026-02-07 18:29:59.529 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-02-07 18:29:59.536 [info] > git status -z -uall [4ms]
+2026-02-07 18:29:59.537 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-02-07 18:29:59.553 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2026-02-07 18:29:59.556 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2026-02-07 18:29:59.558 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 22f8ff2531dde3f76157fd0200a594b6c88bf9ea...refs/remotes/origin/main -- [2ms]
+2026-02-07 18:29:59.559 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 22f8ff2531dde3f76157fd0200a594b6c88bf9ea...refs/remotes/origin/main -- [1ms]
+2026-02-07 18:29:59.897 [info] > git check-ignore -v -z --stdin [3ms]

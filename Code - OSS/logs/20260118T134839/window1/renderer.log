@@ -1,0 +1,7 @@
+2026-01-18 13:48:40.369 [info] Started local extension host with pid 4936.
+2026-01-18 13:48:43.065 [info] [perf] Render performance baseline is 25ms
+2026-01-18 13:49:02.751 [info] Started local extension host with pid 5227.
+2026-01-18 13:49:05.449 [info] [perf] Render performance baseline is 54ms
+2026-01-18 13:49:12.190 [info] Started local extension host with pid 5326.
+2026-01-18 13:49:12.380 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-01-18 13:49:14.825 [info] [perf] Render performance baseline is 26ms

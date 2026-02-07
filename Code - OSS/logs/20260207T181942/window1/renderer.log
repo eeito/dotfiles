@@ -1,0 +1,15 @@
+2026-02-07 18:19:46.572 [info] Started local extension host with pid 19908.
+2026-02-07 18:19:50.222 [info] [perf] Render performance baseline is 55ms
+2026-02-07 18:19:54.993 [info] Started local extension host with pid 19986.
+2026-02-07 18:19:57.652 [info] [perf] Render performance baseline is 24ms
+2026-02-07 18:20:07.551 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at ep.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:436:29377)
+    at ep.updateChildren (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:436:29158)
+    at Sce.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2648:33701)
+    at E.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2349)
+    at E.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2419)
+    at E.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:2637)
+    at bTe.setVisible (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:580:2730)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:13950
+    at Array.map (<anonymous>)
+    at jd.setVisible (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:13941)

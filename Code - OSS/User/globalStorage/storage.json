@@ -1,0 +1,146 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "13cd11e3ef7b545a7471d6408800aced964708d8b02579d02da86cdebeda5361",
+    "telemetry.devDeviceId": "07776e1e-12e3-486d-8da6-abf4e2424389",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/eito/Projs"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1770499706685"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/eito/projs": "__default__profile__",
+            "file:///home/eito/.config/i3": "__default__profile__",
+            "file:///home/eito/.config/rofi": "__default__profile__",
+            "file:///home/eito/.config/polybar": "__default__profile__",
+            "file:///home/eito/.config/gtk-4.0": "__default__profile__",
+            "file:///home/eito/.config/gtk-3.0": "__default__profile__",
+            "file:///home/eito/.config/kitty": "__default__profile__",
+            "file:///home/eito": "__default__profile__",
+            "file:///home/eito/.config/fish": "__default__profile__",
+            "file:///home/eito/.config": "__default__profile__",
+            "file:///home/eito/.config/alacritty": "__default__profile__",
+            "file:///home/eito/projs/dotfiles": "__default__profile__",
+            "file:///home/eito/projs/i3wm-dotfiles": "__default__profile__",
+            "file:///home/eito/Projs": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#0e1011",
+    "windowSplash": {
+        "zoomLevel": 4,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#e2e2e3",
+            "background": "#0e1011",
+            "editorBackground": "#0e1011",
+            "titleBarBackground": "#181a1f",
+            "titleBarBorder": "#222327",
+            "activityBarBackground": "#181a1f",
+            "activityBarBorder": "#181819",
+            "sideBarBackground": "#181a1f",
+            "statusBarBackground": "#181a1f",
+            "statusBarBorder": "#222327",
+            "statusBarNoFolderBackground": "#181a1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 0,
+            "activityBarWidth": 0,
+            "sideBarWidth": 277,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/eito/Projs",
+            "backupPath": "/home/eito/.config/Code - OSS/Backups/a749cb241cd55950634d4b6eda46641d",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 934,
+                "height": 864,
+                "zoomLevel": 3
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 277,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "15ead4c393ee7a5a13218fc568e2f41c": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "11bbe625ec0d7694f66896c3d0f1cb79": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "5b779b2cc5f2844b3a3db61003c5a458": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "80c937c3a3a254b73d7790f26123f809": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "0f4a79b21224d3eb719cda22fa43f378": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "862d88a479c6e9954ac30a2e16ee11bb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "865fca94ca9dae7669bf8a4cd3c3a3e6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f2fc0c1ae4df465e090626ea3a6a5c35": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e8a68e3ed1f6f80572e3b422e9a9f367": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4f81486155b2b60c2ff27dbd7c20da05": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "38e154478a03e557b62980245fc03f6b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7a032299c913d9e734990085a9b85e44": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "8d75500f34584aebe4860732a9854dae": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6d461a6f1e6d1391e4508cee8fffdb54": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+2026-02-07 18:28:27.419 [info] Extension host with pid 22589 started
+2026-02-07 18:28:27.429 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-02-07 18:28:27.460 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-02-07 18:28:27.464 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-02-07 18:28:27.510 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-02-07 18:28:27.580 [info] Eager extensions activated
+2026-02-07 18:28:27.606 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 18:28:27.609 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 18:28:31.699 [info] Extension host terminating: renderer closed the MessagePort
+2026-02-07 18:28:31.706 [info] Extension host with pid 22589 exiting with code 0
+2026-02-07 18:28:32.604 [info] Extension host with pid 22666 started
+2026-02-07 18:28:32.604 [info] Skipping acquiring lock for /home/eito/.config/Code - OSS/User/workspaceStorage/6d461a6f1e6d1391e4508cee8fffdb54.
+2026-02-07 18:28:32.617 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-02-07 18:28:32.650 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-02-07 18:28:32.664 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-02-07 18:28:32.709 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-02-07 18:28:32.719 [info] ExtensionService#_doActivateExtension nromanov.dotrush, startup: true, activationEvent: 'workspaceContains:**/*.{*proj,sln,cs,xaml}'
+2026-02-07 18:28:32.834 [info] Eager extensions activated
+2026-02-07 18:28:32.835 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 18:28:32.836 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-02-07 18:28:35.242 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-02-07 18:28:51.865 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-02-07 18:29:59.381 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'

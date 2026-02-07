@@ -1,0 +1,26 @@
+2026-01-18 13:27:47.517 [info] Extension host with pid 48775 started
+2026-01-18 13:27:47.527 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-18 13:27:47.558 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-18 13:27:47.563 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-18 13:27:47.607 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-18 13:27:47.695 [info] Eager extensions activated
+2026-01-18 13:27:47.696 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:27:47.698 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:27:47.715 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:27:54.015 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-18 13:27:54.020 [info] Extension host with pid 48775 exiting with code 0
+2026-01-18 13:27:54.874 [info] Extension host with pid 48857 started
+2026-01-18 13:27:54.874 [info] Skipping acquiring lock for /home/eito/.config/Code - OSS/User/workspaceStorage/7a032299c913d9e734990085a9b85e44.
+2026-01-18 13:27:54.884 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-01-18 13:27:54.914 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-18 13:27:54.919 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-01-18 13:27:54.962 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-01-18 13:27:55.034 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-18 13:27:55.071 [info] Eager extensions activated
+2026-01-18 13:27:55.077 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:27:55.078 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:27:55.095 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2026-01-18 13:27:58.954 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-01-18 13:28:14.307 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-01-18 13:29:57.927 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-18 13:29:57.936 [info] Extension host with pid 48857 exiting with code 0

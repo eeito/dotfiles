@@ -1,0 +1,29 @@
+# =====================================
+
+# STARSHIP - MODERNO / ÍCONES / DETALHADO
+
+# =====================================
+
+add_newline = true
+command_timeout = 1200
+
+format = """
+$os
+$username
+$hostname
+$directory
+$git_branch
+$git_status
+$git_metrics
+$nodejs
+$python
+$rust
+$golang
+$java
+$docker_context
+$kubernetes
+$cmd_duration
+$character
+"""
+
+# -----------------------
